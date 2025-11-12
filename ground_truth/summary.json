@@ -1,0 +1,13 @@
+{
+  "total_queries": 100,
+  "total_relevant_chunks": 2000,
+  "avg_relevant_per_query": 20.0,
+  "min_relevant_per_query": 20,
+  "max_relevant_per_query": 20,
+  "source_distribution": {
+    "title": 57,
+    "section_head": 18,
+    "keyword_combination": 15,
+    "chunk_content": 10
+  }
+}
