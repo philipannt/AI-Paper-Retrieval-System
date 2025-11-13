@@ -18,10 +18,6 @@ Search-Engine/
 │   ├── crawl.ipynb         # Crawl papers từ arXiv
 │   ├── system.ipynb        # Xây dựng hệ thống search engine
 │   ├── evaluation.ipynb    # Đánh giá hiệu suất
-│   ├── preprocessing.ipynb # Tiền xử lý dữ liệu
-│   ├── BM25.ipynb          # Implementation BM25
-│   ├── M3-Emb.ipynb        # M3 Embedding experiments
-│   ├── ground_truth/       # Ground truth queries và labels
 │   ├── models_hybrid_lda_w2v/  # Trained models
 │   └── requirements.txt    # Dependencies
 ├── data-full/              # TEI XML files đã xử lý
