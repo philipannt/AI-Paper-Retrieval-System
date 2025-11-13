@@ -28,25 +28,11 @@ Search-Engine/
 
 1. Cài đặt dependencies:
 ```bash
-pip install -r code/requirements.txt
+pip install -r requirements.txt
 ```
 
 2. Cấu hình MySQL database:
-   - Tạo file `.env` trong thư mục `code/` với thông tin kết nối MySQL
-   - Format:
-     ```
-     MYSQL_HOST=127.0.0.1
-     MYSQL_PORT=3306
-     MYSQL_USER=root
-     MYSQL_PASSWORD=your_password
-     MYSQL_DB=ai_papers
-     MYSQL_CHARSET=utf8mb4
-     ```
-
-3. (Tùy chọn) Chạy GROBID server để xử lý PDF:
-```bash
-docker run --rm -p 18070:8070 -p 18071:8071 lfoppiano/grobid:latest-crf
-```
+   - Tạo file `.env` với thông tin kết nối MySQL
 
 ## Sử dụng
 
